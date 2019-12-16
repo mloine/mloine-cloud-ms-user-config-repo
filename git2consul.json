@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "repos": [
+    {
+      "name": "config",
+      "url": "https://github.com/mloine/mloine-cloud-ms-user-config-repo.git",
+      "branches": [
+        "master"
+      ],
+      "include_branch_name": false,
+      "hooks": [
+        {
+          "type": "polling",
+          "interval": "1"
+        }
+      ]
+    }
+  ]
+}
